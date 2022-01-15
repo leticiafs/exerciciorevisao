@@ -1,0 +1,140 @@
+
+/* QUINA background: #8666EF;
+lotofacil background: #DD7AC6;
+lotomania background: #FFAB64;
+timemania background: #5AAD7D;
+dia de sorte background: #BFAF83; */
+
+
+.box {
+  display: flex;
+}
+
+.sidebar {
+  width:20vw;
+  height: 100vh;
+  background-color:#6BEFA3;
+}
+
+.itenssidebar {
+  height: 85%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  align-items: center;
+  color: white;
+  font-family: Montserrat;
+  text-transform: uppercase;
+}
+
+form {
+  text-align: left;
+}
+
+.selectbg {
+  width: 14vw;
+  height: 6vh;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+select {
+  border: none;
+  width: 11vw;
+  height: 6vh;
+  font-family: Montserrat;
+  text-transform: uppercase;
+}
+
+.curve {
+  width:15vw;
+  height:100vh;
+  background-color: #6BEFA3;
+  border-top-right-radius:80% 90%;
+  border-bottom-right-radius: 80% 90%;
+}
+
+.dadosconcurso {
+  text-align: left;
+  color: white;
+  font-family: Montserrat;
+}
+
+
+@media screen and (min-device-width : 320px) and (max-device-width : 420px) {
+  .box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100vw;
+    height: 50vh;
+    background-color:#6BEFA3;
+  }
+
+  .curve {
+    width:100vw;
+    height: 6vh;
+    background-color: #6BEFA3;
+    border-bottom-right-radius:80% 90%;
+    border-bottom-left-radius: 80% 90%;
+    border-top-right-radius:0% 0%;
+  }
+  
+  .itenssidebar {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* margin-top: 2rem;
+    margin-bottom: 2rem; */
+    margin: 2rem auto;
+    align-items: center;
+    color: white;
+    font-family: Montserrat;
+    text-transform: uppercase;
+  }
+  
+ form {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .selectbg {
+    width: 44vw;
+    height: 6vh;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+ select {
+    border: none;
+    width: 36vw;
+    height: 6vh;
+    font-family: Montserrat;
+    text-transform: uppercase;
+  }
+  
+  .dadosconcurso {
+    text-align: center;
+    color: white;
+    font-family: Montserrat;
+    font-size: 14px;
+  }
+
+  .titulosorteio {
+    font-size: 30px;
+  }
+  
+
+  
+}
